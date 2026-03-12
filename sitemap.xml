@@ -1,79 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://gadgetsmania.org/</loc>
-<lastmod>2026-02-13</lastmod>
-<changefreq>weekly</changefreq>
 <priority>1.0</priority>
 </url>
 
 <url>
-<loc>https://gadgetsmania.org/mejores/gadgets-baratos/</loc>
-<lastmod>2026-02-13</lastmod>
-<changefreq>weekly</changefreq>
+<loc>https://gadgetsmania.org/comparativa/</loc>
 <priority>0.9</priority>
 </url>
 
 <url>
-<loc>https://gadgetsmania.org/comparativa/gadgets-baratos-menos-20-euros/</loc>
-<lastmod>2026-02-13</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
+<loc>https://gadgetsmania.org/guias/</loc>
+<priority>0.9</priority>
 </url>
-
-<url>
-<loc>https://gadgetsmania.org/comparativa/gadgets-baratos-menos-30-euros/</loc>
-<lastmod>2026-02-13</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-
-<url>
-<loc>https://gadgetsmania.org/guia/como-elegir-gadgets-baratos/</loc>
-<lastmod>2026-02-13</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.7</priority>
-</url>
-
 
 <url>
 <loc>https://gadgetsmania.org/mejor-power-bank-25000mah/</loc>
-<lastmod>2026-02-14</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.85</priority>
+<priority>0.8</priority>
 </url>
 
-
 <url>
-<loc>https://gadgetsmania.org/mejores-memorias-usb-baratas/</loc>
-<lastmod>2026-02-14</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.85</priority>
+<loc>https://gadgetsmania.org/mejor-smartwatch-calidad-precio/</loc>
+<priority>0.8</priority>
 </url>
 
-
 <url>
-<loc>https://gadgetsmania.org/mejor-raton-vertical-ergonomico/</loc>
-<lastmod>2026-02-14</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.85</priority>
+<loc>https://gadgetsmania.org/mejor-mini-proyector-portatil/</loc>
+<priority>0.8</priority>
 </url>
 
-
 <url>
-<loc>https://gadgetsmania.org/mejor-teclado-mini-inalambrico/</loc>
-<lastmod>2026-02-14</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.85</priority>
+<loc>https://gadgetsmania.org/mejor-cargador-gan-usb-c/</loc>
+<priority>0.8</priority>
 </url>
 
+<url>
+<loc>https://gadgetsmania.org/mejor-soporte-movil-coche/</loc>
+<priority>0.8</priority>
+</url>
 
 <url>
-<loc>https://gadgetsmania.org/mejores-lamparas-mesita-recargables/</loc>
-<lastmod>2026-02-14</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.85</priority>
+<loc>https://gadgetsmania.org/mejor-regleta-vertical-usb/</loc>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://gadgetsmania.org/mejor-localizador-bluetooth/</loc>
+<priority>0.8</priority>
 </url>
 
 </urlset>
