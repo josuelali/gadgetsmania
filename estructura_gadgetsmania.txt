@@ -1,0 +1,145 @@
+PS C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania> tree /f
+Listado de rutas de carpetas
+El número de serie del volumen es A6CD-2E19
+C:.
+│   index.html
+│   robots.txt
+│   sitemap.xml
+│   vercel.json
+│   vercel.json.txt
+│
+├───assets
+│   ├───css
+│   │       style.css
+│   │
+│   └───img
+│       │   favicon.ico
+│       │   logo-gadgetsmania.png
+│       │
+│       └───products
+│               base-elevadora-portatil.jpg
+│               fire-tv-stick-4k.jpg
+│               mission-cable-firetv.jpg
+│               powerbank-baseus.jpg
+│               powerbank-cuktech.jpg
+│               powerbank-iniu.jpg
+│               seagate-8tb-desktop.jpg
+│               seagate-barracuda-4tb.jpg
+│               seagate-st4000dmz04.jpg
+│               teclado-raton-inalambrico.jpg
+│               wd-black-d10-12tb.jpg
+│
+├───comparativa
+│   │   index.html
+│   │
+│   ├───gadgets-baratos-menos-20-euros
+│   │       index.html
+│   │
+│   └───gadgets-baratos-menos-30-euros
+│           index.html
+│
+├───guia
+│   │   index.html
+│   │
+│   └───como-elegir-gadgets-baratos
+│           index.html
+│
+├───guias
+│       mejores-discos-duros-externos.html
+│       mejores-monitores-para-trabajar.html
+│       mejores-ratones-gaming.html
+│       mejores-ssd-portatiles.html
+│       mejores-teclados-mecanicos.html
+│
+├───mejor-disco-duro-externo
+│       index.html
+│
+├───mejor-disco-duro-externo-portatil
+│       index.html
+│
+├───mejor-power-bank-25000mah
+│       index.html
+│
+├───mejor-raton-vertical-ergonomico
+│       index.html
+│
+├───mejor-teclado-mini-inalambrico
+│       index.html
+│
+├───mejores
+│   │   index.html
+│   │
+│   └───gadgets-baratos
+│           index.html
+│
+├───mejores-lamparas-mesita-recargables
+│       index.html
+│
+├───mejores-memorias-usb-baratas
+│       index.html
+│
+├───review
+│   │   index.html
+│   │
+│   └───mini-compresor-aire-portatil-xiaomi
+│           index.html
+│
+├───reviews
+│   │   index.html
+│   │
+│   ├───auriculares-bluetooth-baratos-buenos
+│   │       index.html
+│   │
+│   ├───gadgets-tecnologicos-amazon
+│   │       index.html
+│   │
+│   ├───mejor-teclado-mecanico-calidad-precio
+│   │       index.html
+│   │
+│   ├───mejores-auriculares-bluetooth
+│   │       index.html
+│   │
+│   ├───mejores-auriculares-bluetooth-calidad-precio
+│   │       index.html
+│   │
+│   ├───mejores-auriculares-cancelacion-de-ruido
+│   │       index.html
+│   │
+│   ├───mejores-gadgets-para-trabajar-desde-casa
+│   │       index.html
+│   │
+│   ├───mejores-hubs-usb
+│   │       index.html
+│   │
+│   ├───mejores-ratones-gaming
+│   │       index.html
+│   │
+│   ├───mejores-webcams-para-streaming
+│   │       index.html
+│   │
+│   ├───monitor-para-oficina-recomendado
+│   │       index.html
+│   │
+│   ├───monitor-para-programadores
+│   │       index.html
+│   │
+│   ├───monitores-baratos-buenos
+│   │       index.html
+│   │
+│   ├───ratones-inalambricos-baratos
+│   │       index.html
+│   │
+│   ├───teclados-mecanicos-baratos
+│   │       index.html
+│   │
+│   ├───teclados-mecanicos-para-programar
+│   │       index.html
+│   │
+│   ├───teclados-mecanicos-silenciosos
+│   │       index.html
+│   │
+│   └───webcam-para-youtube
+│           index.html
+│
+└───top-gadgets-recomendados
+        index.html
