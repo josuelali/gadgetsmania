@@ -57,6 +57,10 @@ a {
   margin: 0 auto;
 }
 
+/* =========================
+   HEADER / LOGO
+   ========================= */
+
 .header {
   position: sticky;
   top: 0;
@@ -67,29 +71,41 @@ a {
 }
 
 .header-container {
-  min-height: 132px;
+  position: relative;
+  min-height: 168px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: flex-end;
+  justify-content: flex-start;
   gap: 24px;
-  padding: 10px 0;
+  padding: 110px 0 14px;
 }
 
 .logo {
-  display: inline-flex;
+  position: absolute;
+  top: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
   align-items: center;
-  flex-shrink: 0;
-  max-width: 460px;
+  justify-content: center;
+  width: min(780px, calc(100vw - 80px));
+  max-width: 780px;
+  min-height: 82px;
+  padding: 8px 18px;
+  border-radius: 0;
+  background: transparent;
 }
 
 .logo img {
   width: 100%;
-  max-width: 420px;
+  max-width: 760px;
   height: auto;
   object-fit: contain;
   filter:
-    drop-shadow(0 0 16px rgba(48, 167, 255, 0.50))
-    drop-shadow(0 0 34px rgba(48, 167, 255, 0.30));
+    brightness(1.22)
+    contrast(1.18)
+    drop-shadow(0 0 18px rgba(48, 167, 255, 0.60))
+    drop-shadow(0 0 36px rgba(48, 167, 255, 0.38));
 }
 
 .header nav {
@@ -113,6 +129,10 @@ a {
   background: rgba(48, 167, 255, 0.08);
   box-shadow: var(--glow);
 }
+
+/* =========================
+   HERO
+   ========================= */
 
 .hero {
   padding: 52px 0 24px;
@@ -142,6 +162,10 @@ a {
   font-size: 1rem;
   line-height: 1.6;
 }
+
+/* =========================
+   BUTTONS
+   ========================= */
 
 .btn-primary,
 .btn-amazon {
@@ -180,6 +204,10 @@ a {
   transform: translateY(-2px);
 }
 
+/* =========================
+   TRUST
+   ========================= */
+
 .trust {
   padding: 10px 0 24px;
 }
@@ -200,22 +228,38 @@ a {
   font-size: 0.94rem;
 }
 
+/* =========================
+   SECTIONS
+   ========================= */
+
 .top-products,
 .categories,
 .cta-final,
-.quick-links {
+.quick-links,
+.content {
   padding: 20px 0 26px;
 }
 
 .top-products h2,
 .categories h2,
 .cta-final h2,
-.quick-links h2 {
+.quick-links h2,
+.content h2 {
   margin: 0 0 14px;
   font-size: clamp(1.4rem, 2.5vw, 2rem);
   line-height: 1.1;
   letter-spacing: -0.03em;
 }
+
+.content p {
+  color: var(--muted);
+  line-height: 1.75;
+  margin: 0 0 14px;
+}
+
+/* =========================
+   GRIDS / CARDS
+   ========================= */
 
 .grid {
   display: grid;
@@ -310,6 +354,10 @@ a {
   border: 1px solid rgba(71, 181, 255, 0.16);
 }
 
+/* =========================
+   CTA FINAL
+   ========================= */
+
 .cta-final .container {
   text-align: center;
   padding: 26px 18px;
@@ -320,6 +368,10 @@ a {
   border: 1px solid rgba(71, 181, 255, 0.16);
   box-shadow: var(--shadow);
 }
+
+/* =========================
+   FOOTER
+   ========================= */
 
 .footer {
   padding: 16px 0 36px;
@@ -335,6 +387,20 @@ a {
   font-size: 0.9rem;
 }
 
+/* =========================
+   RESPONSIVE
+   ========================= */
+
+@media (max-width: 1200px) {
+  .logo {
+    width: min(640px, calc(100vw - 70px));
+  }
+
+  .logo img {
+    max-width: 620px;
+  }
+}
+
 @media (max-width: 1024px) {
   .catalog-grid,
   .category-grid,
@@ -343,32 +409,35 @@ a {
   }
 
   .header-container {
-    min-height: 118px;
+    min-height: 150px;
+    padding-top: 96px;
   }
 
   .logo {
-    max-width: 360px;
+    width: min(520px, calc(100vw - 54px));
+    top: 14px;
   }
 
   .logo img {
-    max-width: 340px;
+    max-width: 500px;
   }
 }
 
 @media (max-width: 720px) {
   .header-container {
     min-height: auto;
-    padding: 12px 0 14px;
+    padding: 92px 0 14px;
     flex-direction: column;
     align-items: flex-start;
   }
 
   .logo {
-    max-width: 320px;
+    top: 10px;
+    width: min(360px, calc(100vw - 34px));
   }
 
   .logo img {
-    max-width: 300px;
+    max-width: 340px;
   }
 
   .header nav {
