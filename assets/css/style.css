@@ -57,9 +57,7 @@ a {
   margin: 0 auto;
 }
 
-/* =========================
-   HEADER / LOGO
-   ========================= */
+/* HEADER */
 
 .header {
   position: sticky;
@@ -92,7 +90,6 @@ a {
   max-width: 780px;
   min-height: 82px;
   padding: 8px 18px;
-  border-radius: 0;
   background: transparent;
 }
 
@@ -130,9 +127,7 @@ a {
   box-shadow: var(--glow);
 }
 
-/* =========================
-   HERO
-   ========================= */
+/* HERO */
 
 .hero {
   padding: 52px 0 24px;
@@ -163,9 +158,7 @@ a {
   line-height: 1.6;
 }
 
-/* =========================
-   BUTTONS
-   ========================= */
+/* BUTTONS */
 
 .btn-primary,
 .btn-amazon {
@@ -204,9 +197,7 @@ a {
   transform: translateY(-2px);
 }
 
-/* =========================
-   TRUST
-   ========================= */
+/* TRUST */
 
 .trust {
   padding: 10px 0 24px;
@@ -228,15 +219,14 @@ a {
   font-size: 0.94rem;
 }
 
-/* =========================
-   SECTIONS
-   ========================= */
+/* SECTIONS */
 
 .top-products,
 .categories,
 .cta-final,
 .quick-links,
-.content {
+.content,
+.partners-home {
   padding: 20px 0 26px;
 }
 
@@ -244,22 +234,22 @@ a {
 .categories h2,
 .cta-final h2,
 .quick-links h2,
-.content h2 {
+.content h2,
+.partners-home h2 {
   margin: 0 0 14px;
   font-size: clamp(1.4rem, 2.5vw, 2rem);
   line-height: 1.1;
   letter-spacing: -0.03em;
 }
 
-.content p {
+.content p,
+.partners-head p {
   color: var(--muted);
   line-height: 1.75;
   margin: 0 0 14px;
 }
 
-/* =========================
-   GRIDS / CARDS
-   ========================= */
+/* GRIDS */
 
 .grid {
   display: grid;
@@ -354,9 +344,89 @@ a {
   border: 1px solid rgba(71, 181, 255, 0.16);
 }
 
-/* =========================
-   CTA FINAL
-   ========================= */
+/* PARTNERS */
+
+.partners-home .container {
+  padding: 24px 20px;
+  border-radius: 24px;
+  background:
+    linear-gradient(135deg, rgba(48, 167, 255, 0.08), rgba(139, 92, 246, 0.08), rgba(236, 72, 153, 0.08)),
+    rgba(10, 16, 34, 0.84);
+  border: 1px solid rgba(71, 181, 255, 0.16);
+  box-shadow: var(--shadow);
+}
+
+.partners-head {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.partners-strip {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.partner-logo-card {
+  min-height: 118px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(8, 14, 28, 0.98), rgba(10, 18, 36, 0.98));
+  border: 1px solid rgba(71, 181, 255, 0.20);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.30);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.partner-logo-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(77, 243, 255, 0.34);
+  box-shadow:
+    0 14px 30px rgba(0, 0, 0, 0.34),
+    0 0 18px rgba(77, 243, 255, 0.12);
+}
+
+.partner-logo-card img {
+  max-width: 100%;
+  max-height: 74px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  filter:
+    brightness(1.08)
+    contrast(1.08)
+    drop-shadow(0 0 10px rgba(48, 167, 255, 0.12));
+}
+
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.partner-info-card {
+  padding: 16px 14px;
+  border-radius: 16px;
+  background: rgba(8, 14, 28, 0.92);
+  border: 1px solid rgba(71, 181, 255, 0.14);
+}
+
+.partner-info-card h3 {
+  margin: 0 0 8px;
+  font-size: 1rem;
+}
+
+.partner-info-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+/* CTA FINAL */
 
 .cta-final .container {
   text-align: center;
@@ -369,9 +439,7 @@ a {
   box-shadow: var(--shadow);
 }
 
-/* =========================
-   FOOTER
-   ========================= */
+/* FOOTER */
 
 .footer {
   padding: 16px 0 36px;
@@ -387,9 +455,7 @@ a {
   font-size: 0.9rem;
 }
 
-/* =========================
-   RESPONSIVE
-   ========================= */
+/* RESPONSIVE */
 
 @media (max-width: 1200px) {
   .logo {
@@ -404,7 +470,9 @@ a {
 @media (max-width: 1024px) {
   .catalog-grid,
   .category-grid,
-  .info-grid {
+  .info-grid,
+  .partners-strip,
+  .partners-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -456,7 +524,9 @@ a {
 
   .catalog-grid,
   .category-grid,
-  .info-grid {
+  .info-grid,
+  .partners-strip,
+  .partners-grid {
     grid-template-columns: 1fr;
   }
 
@@ -467,5 +537,13 @@ a {
   .btn-primary,
   .btn-amazon {
     width: 100%;
+  }
+
+  .partner-logo-card {
+    min-height: 96px;
+  }
+
+  .partner-logo-card img {
+    max-height: 58px;
   }
 }
