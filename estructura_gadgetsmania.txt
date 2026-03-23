@@ -1,145 +1,525 @@
-PS C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania> tree /f
-Listado de rutas de carpetas
-El número de serie del volumen es A6CD-2E19
-C:.
-│   index.html
-│   robots.txt
-│   sitemap.xml
-│   vercel.json
-│   vercel.json.txt
-│
-├───assets
-│   ├───css
-│   │       style.css
-│   │
-│   └───img
-│       │   favicon.ico
-│       │   logo-gadgetsmania.png
-│       │
-│       └───products
-│               base-elevadora-portatil.jpg
-│               fire-tv-stick-4k.jpg
-│               mission-cable-firetv.jpg
-│               powerbank-baseus.jpg
-│               powerbank-cuktech.jpg
-│               powerbank-iniu.jpg
-│               seagate-8tb-desktop.jpg
-│               seagate-barracuda-4tb.jpg
-│               seagate-st4000dmz04.jpg
-│               teclado-raton-inalambrico.jpg
-│               wd-black-d10-12tb.jpg
-│
-├───comparativa
-│   │   index.html
-│   │
-│   ├───gadgets-baratos-menos-20-euros
-│   │       index.html
-│   │
-│   └───gadgets-baratos-menos-30-euros
-│           index.html
-│
-├───guia
-│   │   index.html
-│   │
-│   └───como-elegir-gadgets-baratos
-│           index.html
-│
-├───guias
-│       mejores-discos-duros-externos.html
-│       mejores-monitores-para-trabajar.html
-│       mejores-ratones-gaming.html
-│       mejores-ssd-portatiles.html
-│       mejores-teclados-mecanicos.html
-│
-├───mejor-disco-duro-externo
-│       index.html
-│
-├───mejor-disco-duro-externo-portatil
-│       index.html
-│
-├───mejor-power-bank-25000mah
-│       index.html
-│
-├───mejor-raton-vertical-ergonomico
-│       index.html
-│
-├───mejor-teclado-mini-inalambrico
-│       index.html
-│
-├───mejores
-│   │   index.html
-│   │
-│   └───gadgets-baratos
-│           index.html
-│
-├───mejores-lamparas-mesita-recargables
-│       index.html
-│
-├───mejores-memorias-usb-baratas
-│       index.html
-│
-├───review
-│   │   index.html
-│   │
-│   └───mini-compresor-aire-portatil-xiaomi
-│           index.html
-│
-├───reviews
-│   │   index.html
-│   │
-│   ├───auriculares-bluetooth-baratos-buenos
-│   │       index.html
-│   │
-│   ├───gadgets-tecnologicos-amazon
-│   │       index.html
-│   │
-│   ├───mejor-teclado-mecanico-calidad-precio
-│   │       index.html
-│   │
-│   ├───mejores-auriculares-bluetooth
-│   │       index.html
-│   │
-│   ├───mejores-auriculares-bluetooth-calidad-precio
-│   │       index.html
-│   │
-│   ├───mejores-auriculares-cancelacion-de-ruido
-│   │       index.html
-│   │
-│   ├───mejores-gadgets-para-trabajar-desde-casa
-│   │       index.html
-│   │
-│   ├───mejores-hubs-usb
-│   │       index.html
-│   │
-│   ├───mejores-ratones-gaming
-│   │       index.html
-│   │
-│   ├───mejores-webcams-para-streaming
-│   │       index.html
-│   │
-│   ├───monitor-para-oficina-recomendado
-│   │       index.html
-│   │
-│   ├───monitor-para-programadores
-│   │       index.html
-│   │
-│   ├───monitores-baratos-buenos
-│   │       index.html
-│   │
-│   ├───ratones-inalambricos-baratos
-│   │       index.html
-│   │
-│   ├───teclados-mecanicos-baratos
-│   │       index.html
-│   │
-│   ├───teclados-mecanicos-para-programar
-│   │       index.html
-│   │
-│   ├───teclados-mecanicos-silenciosos
-│   │       index.html
-│   │
-│   └───webcam-para-youtube
-│           index.html
-│
-└───top-gadgets-recomendados
-        index.html
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        02/03/2026     14:35                assets
+d-----        12/03/2026     14:00                comparativa
+d-----        12/03/2026     14:00                guia
+d-----        04/03/2026     23:02                guias
+d-----        02/03/2026     13:21                mejor-disco-duro-externo
+d-----        02/03/2026     22:43                mejor-disco-duro-externo-portatil
+d-----        02/03/2026     11:32                mejor-power-bank-25000mah
+d-----        02/03/2026     11:32                mejor-raton-vertical-ergonomico
+d-----        02/03/2026     11:32                mejor-teclado-mini-inalambrico
+d-----        12/03/2026     14:00                mejores
+d-----        02/03/2026     11:32                mejores-lamparas-mesita-recargables
+d-----        02/03/2026     11:32                mejores-memorias-usb-baratas
+d-----        12/03/2026     14:00                review
+d-----        23/03/2026      0:47                reviews
+d-----        02/03/2026     14:44                top-gadgets-recomendados
+-a----        20/03/2026      6:56           4010 estructura_gadgetsmania.txt
+-a----        14/03/2026      5:00           1122 index.html
+-a----        02/03/2026     11:32             74 robots.txt
+-a----        14/03/2026      5:00           4371 sitemap.xml
+-a----        10/03/2026     20:26             51 vercel.json
+-a----        10/03/2026     20:26              0 vercel.json.txt
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\assets
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        02/03/2026     11:32                css
+d-----        23/03/2026      2:23                img
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\assets\css
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/03/2026      3:53           5273 style.css
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\assets\img
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        02/03/2026     21:34                products
+-a----        23/03/2026      2:23          15406 favicon.ico
+-a----        23/03/2026      2:05         372485 logo-gadgetsmania.png
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\assets\img\products
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        02/03/2026     15:16          32648 base-elevadora-portatil.jpg
+-a----        02/03/2026     15:03          26252 fire-tv-stick-4k.jpg
+-a----        02/03/2026     15:04          36920 mission-cable-firetv.jpg
+-a----        02/03/2026     21:29         115833 powerbank-baseus.jpg
+-a----        02/03/2026     21:27          94297 powerbank-cuktech.jpg
+-a----        02/03/2026     21:32         144409 powerbank-iniu.jpg
+-a----        02/03/2026     13:58          91835 seagate-8tb-desktop.jpg
+-a----        02/03/2026     13:54          91726 seagate-barracuda-4tb.jpg
+-a----        02/03/2026     14:00          69809 seagate-st4000dmz04.jpg
+-a----        02/03/2026     15:04          69834 teclado-raton-inalambrico.jpg
+-a----        02/03/2026     14:03          64335 wd-black-d10-12tb.jpg
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\comparativa
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        02/03/2026     11:32                gadgets-baratos-menos-20-euros
+d-----        02/03/2026     11:32                gadgets-baratos-menos-30-euros
+-a----        14/03/2026      5:00            415 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\comparativa\gadgets-baratos-menos-20-euros
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        12/03/2026     13:44           1591 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\comparativa\gadgets-baratos-menos-30-euros
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        12/03/2026     13:44           1596 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\guia
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        02/03/2026     11:32                como-elegir-gadgets-baratos
+-a----        14/03/2026      5:00            322 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\guia\como-elegir-gadgets-baratos
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        12/03/2026     13:44           1769 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\guias
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        12/03/2026     13:44          11806 mejores-discos-duros-externos.html
+-a----        12/03/2026     13:44          13078 mejores-monitores-para-trabajar.html
+-a----        12/03/2026     13:44          12696 mejores-ratones-gaming.html
+-a----        12/03/2026     13:44          12870 mejores-ssd-portatiles.html
+-a----        12/03/2026     13:44          12754 mejores-teclados-mecanicos.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\mejor-disco-duro-externo
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        12/03/2026     13:44           3694 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\mejor-disco-duro-externo-portatil
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        12/03/2026     13:44           3361 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\mejor-power-bank-25000mah
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        12/03/2026     13:44           5352 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\mejor-raton-vertical-ergonomico
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        12/03/2026     13:44           4475 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\mejor-teclado-mini-inalambrico
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        12/03/2026     13:44           4432 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\mejores
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        02/03/2026     11:32                gadgets-baratos
+-a----        14/03/2026      5:00            298 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\mejores\gadgets-baratos
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        12/03/2026     13:44          14774 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\mejores-lamparas-mesita-recargables
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        12/03/2026     13:44           9237 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\mejores-memorias-usb-baratas
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        12/03/2026     13:44           9278 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\review
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        02/03/2026     11:32                mini-compresor-aire-portatil-xiaomi
+-a----        14/03/2026      5:00            338 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\review\mini-compresor-aire-portatil-xiaomi
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        12/03/2026     13:44           3063 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        19/03/2026      0:17                auriculares-bluetooth-baratos-buenos
+d-----        21/03/2026     10:10                auriculares-bluetooth-para-streaming
+d-----        21/03/2026     10:10                auriculares-bluetooth-para-trabajar
+d-----        13/03/2026      0:07                gadgets-tecnologicos-amazon
+d-----        23/03/2026      0:47                mejor-disco-duro-externo-calidad-precio
+d-----        22/03/2026      7:18                mejor-microfono-usb-calidad-precio
+d-----        21/03/2026     10:09                mejor-monitor-calidad-precio
+d-----        22/03/2026      7:18                mejor-raton-gaming-calidad-precio
+d-----        19/03/2026      4:57                mejor-teclado-mecanico-calidad-precio
+d-----        19/03/2026      0:17                mejores-auriculares-bluetooth
+d-----        19/03/2026      4:57                mejores-auriculares-bluetooth-calidad-precio
+d-----        19/03/2026      4:58                mejores-auriculares-cancelacion-de-ruido
+d-----        19/03/2026      4:57                mejores-gadgets-para-trabajar-desde-casa
+d-----        19/03/2026      0:17                mejores-hubs-usb
+d-----        22/03/2026      7:19                mejores-monitores-para-trabajar
+d-----        19/03/2026      4:57                mejores-ratones-gaming
+d-----        22/03/2026      7:19                mejores-teclados-mecanicos
+d-----        19/03/2026      4:58                mejores-webcams-para-streaming
+d-----        22/03/2026      7:19                microfonos-usb-baratos
+d-----        20/03/2026      5:35                monitor-para-oficina-recomendado
+d-----        20/03/2026      5:35                monitor-para-programadores
+d-----        19/03/2026      0:17                monitores-baratos-buenos
+d-----        23/03/2026      0:47                ratones-ergonomicos-para-trabajar
+d-----        20/03/2026      5:35                ratones-inalambricos-baratos
+d-----        21/03/2026     10:10                ratones-para-oficina-recomendados
+d-----        21/03/2026     10:10                ssd-externo-portatil
+d-----        22/03/2026      7:18                ssd-externo-rapido
+d-----        20/03/2026      5:34                teclados-mecanicos-baratos
+d-----        19/03/2026      0:17                teclados-mecanicos-para-programar
+d-----        20/03/2026      5:35                teclados-mecanicos-silenciosos
+d-----        21/03/2026     10:10                webcam-full-hd-barata
+d-----        20/03/2026      5:34                webcam-para-youtube
+-a----        14/03/2026      5:00            322 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\auriculares-bluetooth-baratos-buenos
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        19/03/2026      0:17           4607 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\auriculares-bluetooth-para-streaming
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        21/03/2026     10:10           4607 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\auriculares-bluetooth-para-trabajar
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        21/03/2026     10:10           4598 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\gadgets-tecnologicos-amazon
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        13/03/2026      0:06           1692 index.html
+
+
+    Directorio:
+    C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\mejor-disco-duro-externo-calidad-precio
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        23/03/2026      0:47           4634 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\mejor-microfono-usb-calidad-precio
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        22/03/2026      7:18           4597 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\mejor-monitor-calidad-precio
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        21/03/2026     10:09           4535 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\mejor-raton-gaming-calidad-precio
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        22/03/2026      7:18           4588 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\mejor-teclado-mecanico-calidad-precio
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        19/03/2026      4:57           4624 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\mejores-auriculares-bluetooth
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        19/03/2026      0:17           4544 index.html
+
+
+    Directorio:
+    C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\mejores-auriculares-bluetooth-calidad-precio
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        19/03/2026      4:57           4679 index.html
+
+
+    Directorio:
+    C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\mejores-auriculares-cancelacion-de-ruido
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        19/03/2026      4:58           4651 index.html
+
+
+    Directorio:
+    C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\mejores-gadgets-para-trabajar-desde-casa
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        19/03/2026      4:57           4643 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\mejores-hubs-usb
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        19/03/2026      0:17           4427 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\mejores-monitores-para-trabajar
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        22/03/2026      7:19           4562 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\mejores-ratones-gaming
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        19/03/2026      4:57           4481 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\mejores-teclados-mecanicos
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        22/03/2026      7:19           4525 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\mejores-webcams-para-streaming
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        19/03/2026      4:58           4553 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\microfonos-usb-baratos
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        22/03/2026      7:19           4489 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\monitor-para-oficina-recomendado
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        20/03/2026      5:35           4571 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\monitor-para-programadores
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        20/03/2026      5:35           4517 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\monitores-baratos-buenos
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        19/03/2026      0:17           4499 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\ratones-ergonomicos-para-trabajar
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        23/03/2026      0:47           4588 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\ratones-inalambricos-baratos
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        20/03/2026      5:35           4543 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\ratones-para-oficina-recomendados
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        21/03/2026     10:10           4580 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\ssd-externo-portatil
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        21/03/2026     10:10           4471 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\ssd-externo-rapido
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        22/03/2026      7:18           4453 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\teclados-mecanicos-baratos
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        20/03/2026      5:34           4525 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\teclados-mecanicos-para-programar
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        19/03/2026      0:17           4588 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\teclados-mecanicos-silenciosos
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        20/03/2026      5:35           4561 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\webcam-full-hd-barata
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        21/03/2026     10:10           4472 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\reviews\webcam-para-youtube
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        20/03/2026      5:34           4454 index.html
+
+
+    Directorio: C:\Users\user\Desktop\PROYECTOS_ACTIVOS\WEBS\gadgetsmania\top-gadgets-recomendados
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        12/03/2026     13:44           5334 index.html
