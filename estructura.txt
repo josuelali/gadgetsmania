@@ -1,0 +1,286 @@
+El número de serie del volumen es A6CD-2E19
+C:.
+│   fix_encoding.py
+│   index.html
+│   robots.txt
+│   sitemap.xml
+│   vercel.json
+│
+├───assets
+│   ├───css
+│   │       style.css
+│   │
+│   └───img
+│       │   logo-gadgetsmania.png
+│       │   logo-gadgetsmania2.png
+│       │   partners.zip
+│       │
+│       ├───partners
+│       │       logo-amazon.png
+│       │       logo-hostinger.png
+│       │       logo-pictory.png
+│       │       logo-systeme.png
+│       │
+│       └───products
+│               auriciular1.jpg
+│               auriculares_1.jpg
+│               auriculares_2.jpg
+│               auriculares_3.jpg
+│               auriculares_4.jpg
+│               auriculares_5.jpg
+│               auriculares_6.jpg
+│               base-elevadora-portatil.jpg
+│               fire-tv-stick-4k.jpg
+│               jbl-live-tune-770.jpg
+│               microfono_1.jpg
+│               microfono_2.jpg
+│               microfono_3.jpg
+│               microfono_4.jpg
+│               microfono_5.jpg
+│               microfono_6.jpg
+│               mission-cable-firetv.jpg
+│               monitor-27.jpg
+│               monitor-32.jpg
+│               monitor-34.jpg
+│               monitor-lenovo-27.jpg
+│               powerbank-baseus.jpg
+│               powerbank-cuktech.jpg
+│               powerbank-iniu.jpg
+│               raton_ergonomico_1.jpg
+│               raton_ergonomico_2.jpg
+│               raton_ergonomico_3.jpg
+│               raton_ergonomico_4.jpg
+│               raton_ergonomico_5.jpg
+│               raton_ergonomico_6.jpg
+│               seagate-8tb-desktop.jpg
+│               seagate-barracuda-4tb.jpg
+│               seagate-st4000dmz04.jpg
+│               sound-core-space-one.jpg
+│               teclado-raton-inalambrico.jpg
+│               teclado_1.jpg
+│               teclado_2.jpg
+│               teclado_3.jpg
+│               teclado_4.jpg
+│               teclado_5.jpg
+│               teclado_6.jpg
+│               wd-black-d10-12tb.jpg
+│               webcam_1.jpg
+│               webcam_2.jpg
+│               webcam_3.jpg
+│               webcam_4.jpg
+│               webcam_5.jpg
+│               webcam_6.jpg
+│
+├───como-elegir-gadgets-baratos
+│       index.html
+│
+├───comparativa
+│   │   index.html
+│   │
+│   ├───gadgets-baratos-menos-20-euros
+│   │       index.html
+│   │
+│   └───gadgets-baratos-menos-30-euros
+│           index.html
+│
+├───guias
+│       mejores-discos-duros-externos.html
+│       mejores-monitores-para-trabajar.html
+│       mejores-ratones-gaming.html
+│       mejores-ssd-portatiles.html
+│       mejores-teclados-mecanicos.html
+│
+├───legal
+│       aviso-legal.html
+│       contacto.html
+│       cookies.html
+│       privacidad.html
+│
+├───mejor-disco-duro-externo
+│       index.html
+│
+├───mejor-disco-duro-externo-portatil
+│       index.html
+│
+├───mejor-power-bank-25000mah
+│       index.html
+│
+├───mejor-raton-vertical-ergonomico
+│       index.html
+│
+├───mejor-teclado-mini-inalambrico
+│       index.html
+│
+├───mejores
+│   │   index.html
+│   │
+│   └───gadgets-baratos
+│           index.html
+│
+├───mejores-lamparas-mesita-recargables
+│       index.html
+│
+├───mejores-memorias-usb-baratas
+│       index.html
+│
+├───mini-compresor-aire-portatil-xiaomi
+│       index.html
+│
+├───reviews
+│   │   index.html
+│   │
+│   ├───altavoz-bluetooth-amazon
+│   │       index.html
+│   │
+│   ├───auriculares-bluetooth-baratos-buenos
+│   │       index.html
+│   │
+│   ├───auriculares-bluetooth-para-streaming
+│   │       index.html
+│   │
+│   ├───auriculares-bluetooth-para-trabajar
+│   │       index.html
+│   │
+│   ├───camara-ip-amazon
+│   │       index.html
+│   │
+│   ├───cargador-portatil-amazon
+│   │       index.html
+│   │
+│   ├───cascos-gaming-amazon-recomendados
+│   │       index.html
+│   │
+│   ├───dock-usb-c-barato-amazon
+│   │       index.html
+│   │
+│   ├───gadgets-curiosos-amazon
+│   │       index.html
+│   │
+│   ├───gadgets-tecnologicos-amazon
+│   │       index.html
+│   │
+│   ├───luces-led-amazon-recomendadas
+│   │       index.html
+│   │
+│   ├───mejor-disco-duro-externo-calidad-precio
+│   │       index.html
+│   │
+│   ├───mejor-microfono-usb-calidad-precio
+│   │       index.html
+│   │
+│   ├───mejor-monitor-calidad-precio
+│   │       index.html
+│   │
+│   ├───mejor-raton-gaming-calidad-precio
+│   │       index.html
+│   │
+│   ├───mejor-teclado-mecanico-barato
+│   │       index.html
+│   │
+│   ├───mejor-teclado-mecanico-calidad-precio
+│   │       index.html
+│   │
+│   ├───mejores-auriculares-bluetooth
+│   │       index.html
+│   │
+│   ├───mejores-auriculares-bluetooth-calidad-precio
+│   │       index.html
+│   │
+│   ├───mejores-auriculares-cancelacion-de-ruido
+│   │       index.html
+│   │
+│   ├───mejores-auriculares-inalambricos
+│   │       index.html
+│   │
+│   ├───mejores-gadgets-para-trabajar-desde-casa
+│   │       index.html
+│   │
+│   ├───mejores-hubs-usb
+│   │       index.html
+│   │
+│   ├───mejores-monitores-para-trabajar
+│   │       index.html
+│   │
+│   ├───mejores-ratones-gaming
+│   │       index.html
+│   │
+│   ├───mejores-teclados-mecanicos
+│   │       index.html
+│   │
+│   ├───mejores-webcams-para-streaming
+│   │       index.html
+│   │
+│   ├───microfono-usb-amazon-recomendado
+│   │       index.html
+│   │
+│   ├───microfonos-usb-baratos
+│   │       index.html
+│   │
+│   ├───monitor-144hz-barato-amazon
+│   │       index.html
+│   │
+│   ├───monitor-para-oficina-recomendado
+│   │       index.html
+│   │
+│   ├───monitor-para-programadores
+│   │       index.html
+│   │
+│   ├───monitores-baratos-buenos
+│   │       index.html
+│   │
+│   ├───raton-gaming-amazon-recomendados
+│   │       index.html
+│   │
+│   ├───raton-gaming-para-fps-barato
+│   │       index.html
+│   │
+│   ├───ratones-ergonomicos-para-trabajar
+│   │       index.html
+│   │
+│   ├───ratones-inalambricos-baratos
+│   │       index.html
+│   │
+│   ├───ratones-para-oficina-recomendados
+│   │       index.html
+│   │
+│   ├───silla-oficina-barata-amazon
+│   │       index.html
+│   │
+│   ├───smartwatch-amazon-recomendado
+│   │       index.html
+│   │
+│   ├───ssd-externo-portatil
+│   │       index.html
+│   │
+│   ├───ssd-externo-rapido
+│   │       index.html
+│   │
+│   ├───tablet-amazon-recomendada
+│   │       index.html
+│   │
+│   ├───teclado-gaming-silencioso-barato
+│   │       index.html
+│   │
+│   ├───teclado-mecanico-amazon-recomendados
+│   │       index.html
+│   │
+│   ├───teclados-mecanicos-baratos
+│   │       index.html
+│   │
+│   ├───teclados-mecanicos-para-programar
+│   │       index.html
+│   │
+│   ├───teclados-mecanicos-silenciosos
+│   │       index.html
+│   │
+│   ├───webcam-calidad-precio-amazon
+│   │       index.html
+│   │
+│   ├───webcam-full-hd-barata
+│   │       index.html
+│   │
+│   └───webcam-para-youtube
+│           index.html
+│
+└───top-gadgets-recomendados
+        index.html
