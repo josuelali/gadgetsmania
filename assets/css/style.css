@@ -473,8 +473,25 @@ a {
   }
 
   .logo img {
-    max-width: 500px;
-  }
+  width: 140px;
+  height: auto;
+}
+
+.header {
+  padding: 10px 0;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav a {
+  margin-left: 15px;
+  font-size: 14px;
+}
+
 }
 
 @media (max-width: 1024px) {
