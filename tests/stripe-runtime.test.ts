@@ -1,6 +1,15 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { validateStripeRuntime } from "../lib/stripe-runtime.js";
+import {
+  getPaymentsHealthStatus,
+  validateStripeRuntime,
+} from "../lib/stripe-runtime.js";
+
+test("reports the configured payment environment without exposing secrets", () => {
+  assert.equal(getPaymentsHealthStatus("test"), "test_only");
+  assert.equal(getPaymentsHealthStatus("live"), "live");
+  assert.equal(getPaymentsHealthStatus(undefined), "test_only");
+});
 
 test("accepts test keys in Preview", () => {
   assert.doesNotThrow(() =>

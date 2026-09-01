@@ -4,6 +4,10 @@ export type StripeRuntimeConfig = {
   vercelEnv?: string;
 };
 
+export function getPaymentsHealthStatus(stripeMode: string | undefined) {
+  return stripeMode === "live" ? "live" : "test_only";
+}
+
 export function validateStripeRuntime({
   stripeSecretKey,
   stripeMode,
