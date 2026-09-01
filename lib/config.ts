@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { validateStripeRuntime } from "./stripe-runtime.js";
 
 const serverSchema = z.object({
   DATABASE_URL: z
@@ -11,13 +12,25 @@ const serverSchema = z.object({
     ),
   STRIPE_SECRET_KEY: z
     .string()
-    .min(16)
-    .refine(
-      (value) => value.startsWith("rk_test_") || value.startsWith("sk_test_"),
-      "Only Stripe test keys are accepted before launch",
-    ),
+    .min(16),
+  STRIPE_MODE: z.enum(["test", "live"]),
+  VERCEL_ENV: z.string().optional(),
   STRIPE_WEBHOOK_SECRET: z.string().startsWith("whsec_"),
   PUBLIC_SITE_URL: z.string().url(),
+}).superRefine((value, ctx) => {
+  try {
+    validateStripeRuntime({
+      stripeSecretKey: value.STRIPE_SECRET_KEY,
+      stripeMode: value.STRIPE_MODE,
+      vercelEnv: value.VERCEL_ENV,
+    });
+  } catch (error) {
+    ctx.addIssue({
+      code: "custom",
+      path: ["STRIPE_SECRET_KEY"],
+      message: error instanceof Error ? error.message : "Invalid Stripe runtime configuration",
+    });
+  }
 });
 
 export function getServerConfig() {

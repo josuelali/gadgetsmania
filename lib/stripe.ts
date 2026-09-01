@@ -1,12 +1,19 @@
 import Stripe from "stripe";
+import { validateStripeRuntime } from "./stripe-runtime.js";
 
 let client: Stripe | undefined;
 
 export function getStripeClient() {
   const apiKey = process.env.STRIPE_SECRET_KEY;
   if (!apiKey) throw new Error("STRIPE_SECRET_KEY is required");
-  if (!apiKey.startsWith("rk_test_") && !apiKey.startsWith("sk_test_"))
-    throw new Error("Only Stripe test mode is allowed before launch");
+  const stripeMode = process.env.STRIPE_MODE;
+  if (stripeMode !== "test" && stripeMode !== "live")
+    throw new Error("STRIPE_MODE must be test or live");
+  validateStripeRuntime({
+    stripeSecretKey: apiKey,
+    stripeMode,
+    vercelEnv: process.env.VERCEL_ENV,
+  });
   client ??= new Stripe(apiKey, {
     apiVersion: "2026-07-29.dahlia",
     appInfo: { name: "GadgetsMania Global Ranking", version: "1.0.0" },
