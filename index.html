@@ -3,11 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>GadgetsManía — The Global Gadget Ranking</title>
+    <title>GadgetsManía — Compete for the #1 Gadget Spot</title>
     <meta
       name="description"
-      content="Discover the gadgets winning attention today. A transparent global leaderboard powered by verified boosts and editorial picks."
+      content="Add your gadget, boost it with a verified Stripe payment and compete for the top position in the live GadgetsManía ranking."
     />
+    <meta property="og:title" content="GadgetsManía — Compete for #1" />
+    <meta property="og:description" content="Your verified paid boost decides your position. Add a gadget, beat the score above you and fight for #1." />
+    <meta property="og:url" content="https://gadgetsmania.org/" />
+    <meta property="og:type" content="website" />
     <link rel="canonical" href="https://gadgetsmania.org/" />
     <link rel="icon" href="/assets/img/logo-gadgetsmania2.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,13 +21,46 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/assets/css/ranking.css" />
+    <style>
+      .daily-countdown-wrap {
+        display: grid;
+        grid-template-columns: auto auto 1fr;
+        align-items: center;
+        gap: 16px;
+        margin: 22px 0 28px;
+        padding: 18px 20px;
+        border: 1px solid #5f6e2d;
+        background: linear-gradient(90deg, rgba(217,255,63,.08), rgba(255,255,255,.015));
+      }
+      .daily-countdown-label {
+        color: #d9ff3f;
+        font: 700 11px "Space Grotesk", sans-serif;
+        letter-spacing: .14em;
+      }
+      .daily-countdown {
+        color: #fff;
+        font: 700 clamp(26px, 3vw, 42px) "Space Grotesk", sans-serif;
+        letter-spacing: .05em;
+        font-variant-numeric: tabular-nums;
+      }
+      .daily-countdown-note {
+        color: #8d8e93;
+        font-size: 12px;
+        line-height: 1.45;
+        text-align: right;
+      }
+      @media (max-width: 760px) {
+        .daily-countdown-wrap { grid-template-columns: 1fr; gap: 7px; }
+        .daily-countdown-note { text-align: left; }
+      }
+    </style>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "GadgetsManía",
         "url": "https://gadgetsmania.org/",
-        "description": "The transparent global gadget ranking."
+        "description": "A transparent competitive gadget ranking powered by verified paid boosts."
       }
     </script>
   </head>
@@ -31,299 +68,88 @@
     <div class="glow glow-a"></div>
     <div class="glow glow-b"></div>
     <header class="topbar">
-      <a class="brand" href="/" aria-label="GadgetsManía home"
-        ><span class="brand-mark">G</span
-        ><span>Gadgets<span>Manía</span></span></a
-      >
+      <a class="brand" href="/" aria-label="GadgetsManía home"><span class="brand-mark">G</span><span>Gadgets<span>Manía</span></span></a>
       <nav aria-label="Main navigation">
-        <a href="#ranking" data-i18n="navRanking">Ranking</a
-        ><a href="/reviews/">Reviews</a
-        ><a href="/comparativa/" data-i18n="navGuides">Guides</a
-        ><a href="/legal/ranking-terms.html" data-i18n="navRules">Rules</a>
+        <a href="#ranking" data-i18n="navRanking">Ranking</a><a href="/reviews/">Reviews</a><a href="/comparativa/" data-i18n="navGuides">Guides</a><a href="/legal/ranking-terms.html" data-i18n="navRules">Rules</a>
       </nav>
       <div class="top-actions">
-        <button class="language" id="language" type="button">ES</button
-        ><button
-          class="button button-small"
-          type="button"
-          data-open-submit
-          data-i18n="listGadget"
-        >
-          List a gadget
-        </button>
+        <button class="language" id="language" type="button">ES</button><button class="button button-small" type="button" data-open-submit data-i18n="listGadget">Add your gadget</button>
       </div>
     </header>
     <main>
       <section class="hero">
-        <div class="eyebrow">
-          <span></span
-          ><span data-i18n="eyebrow">THE LIVE BATTLE FOR ATTENTION</span>
-        </div>
-        <h1>
-          <span data-i18n="heroLine1">THE WORLD'S GADGETS.</span><br /><em
-            data-i18n="heroLine2"
-            >RANKED BY MOMENTUM.</em
-          >
-        </h1>
-        <p data-i18n="heroCopy">
-          A transparent leaderboard where useful tech earns the spotlight.
-          Discover what's rising, submit your gadget, or boost the products you
-          believe in.
-        </p>
+        <div class="eyebrow"><span></span><span data-i18n="eyebrow">THE LIVE BATTLE FOR #1</span></div>
+        <h1><span data-i18n="heroLine1">YOUR BOOST.</span><br /><em data-i18n="heroLine2">YOUR POSITION.</em></h1>
+        <p data-i18n="heroCopy">A transparent gadget leaderboard where verified paid boosts decide the order. Add your gadget, beat the score above you and fight for #1.</p>
         <div class="hero-actions">
-          <a class="button" href="#ranking"
-            ><span data-i18n="explore">Explore the ranking</span><b>↓</b></a
-          ><button class="button button-ghost" type="button" data-open-submit>
-            <span data-i18n="joinBattle">Join the battle</span><b>↗</b>
-          </button>
+          <a class="button" href="#ranking"><span data-i18n="explore">See who is #1</span><b>↓</b></a><button class="button button-ghost" type="button" data-open-submit><span data-i18n="joinBattle">Compete now</span><b>↗</b></button>
         </div>
         <div class="trust-row">
-          <span
-            ><b>✓</b>
-            <span data-i18n="verified">Verified Stripe boosts</span></span
-          ><span
-            ><b>◎</b>
-            <span data-i18n="transparent">Transparent scores</span></span
-          ><span
-            ><b>€</b> <span data-i18n="oneTime">One-time payments</span></span
-          >
+          <span><b>✓</b> <span data-i18n="verified">Verified Stripe payments</span></span><span><b>◎</b> <span data-i18n="transparent">Money decides the order</span></span><span><b>€</b> <span data-i18n="oneTime">One-time payments</span></span>
         </div>
       </section>
-      <section class="ticker" aria-label="How the ranking works">
-        <div>
-          <span>DISCOVER</span><i>◆</i><span>SUBMIT</span><i>◆</i
-          ><span>BOOST</span><i>◆</i><span>CLIMB</span><i>◆</i
-          ><span>GET SEEN</span><i>◆</i><span>DISCOVER</span>
-        </div>
-      </section>
+      <section class="ticker" aria-label="How the ranking works"><div><span>ADD</span><i>◆</i><span>BOOST</span><i>◆</i><span>OVERTAKE</span><i>◆</i><span>TAKE #1</span><i>◆</i><span>GET SEEN</span><i>◆</i><span>ADD</span></div></section>
       <section class="ranking-section" id="ranking">
         <div class="section-heading">
-          <div>
-            <span class="section-number">01</span>
-            <p data-i18n="rankingLabel">GLOBAL LEADERBOARD</p>
-            <h2 data-i18n="rankingTitle">What's winning attention</h2>
-          </div>
-          <p class="section-note" data-i18n="rankingNote">
-            Paid totals include completed, verified Stripe payments only.
-            Editorial picks always show €0.
-          </p>
+          <div><span class="section-number">01</span><p data-i18n="rankingLabel">LIVE COMPETITIVE RANKING</p><h2 data-i18n="rankingTitle">Beat the score above you</h2></div>
+          <p class="section-note" data-i18n="rankingNote">Every completed Stripe payment adds to that gadget's score. Higher verified total = higher position. Editorial starters remain at €0 until boosted.</p>
+        </div>
+        <div class="daily-countdown-wrap" aria-live="polite">
+          <span class="daily-countdown-label" id="daily-countdown-label">TODAY'S RANKING CLOSES IN</span>
+          <strong class="daily-countdown" id="daily-countdown">--:--:--</strong>
+          <span class="daily-countdown-note" id="daily-countdown-note">Daily ranking resets at 00:00 UTC. All-time ranking keeps accumulating.</span>
         </div>
         <div class="filters">
-          <div class="period-switch">
-            <button
-              class="active"
-              type="button"
-              data-period="daily"
-              data-i18n="today"
-            >
-              Today</button
-            ><button type="button" data-period="historical" data-i18n="allTime">
-              All time
-            </button>
-          </div>
-          <label class="search"
-            ><span>⌕</span
-            ><input
-              id="search"
-              type="search"
-              maxlength="80"
-              data-i18n-placeholder="search"
-              placeholder="Search gadgets"
-          /></label>
+          <div class="period-switch"><button class="active" type="button" data-period="daily" data-i18n="today">Today</button><button type="button" data-period="historical" data-i18n="allTime">All time</button></div>
+          <label class="search"><span>⌕</span><input id="search" type="search" maxlength="80" data-i18n-placeholder="search" placeholder="Search gadgets" /></label>
           <select id="category">
-            <option value="" data-i18n="allCategories">All categories</option>
-            <option value="ai">AI</option>
-            <option value="mobile">Mobile</option>
-            <option value="gaming">Gaming</option>
-            <option value="home">Smart home</option>
-            <option value="creator">Creator</option>
-            <option value="accessories">Accessories</option>
+            <option value="" data-i18n="allCategories">All categories</option><option value="ai">AI</option><option value="mobile">Mobile</option><option value="gaming">Gaming</option><option value="home">Smart home</option><option value="creator">Creator</option><option value="accessories">Accessories</option>
           </select>
         </div>
-        <div
-          class="ranking-status"
-          id="ranking-status"
-          aria-live="polite"
-          data-i18n="loading"
-        >
-          Loading live ranking…
-        </div>
+        <div class="ranking-status" id="ranking-status" aria-live="polite" data-i18n="loading">Loading live ranking…</div>
         <div class="ranking-list" id="ranking-list"></div>
       </section>
       <section class="how-section">
-        <div class="section-heading compact">
-          <div>
-            <span class="section-number">02</span>
-            <p data-i18n="howLabel">ZERO MYSTERY</p>
-            <h2 data-i18n="howTitle">How the leaderboard works</h2>
-          </div>
-        </div>
+        <div class="section-heading compact"><div><span class="section-number">02</span><p data-i18n="howLabel">NO MYSTERY</p><h2 data-i18n="howTitle">How to take a higher position</h2></div></div>
         <div class="steps">
-          <article>
-            <b>01</b><span class="step-icon">＋</span>
-            <h3 data-i18n="step1Title">Submit or select</h3>
-            <p data-i18n="step1Copy">
-              Add a public gadget page or choose an existing product from the
-              ranking.
-            </p>
-          </article>
-          <article>
-            <b>02</b><span class="step-icon">€</span>
-            <h3 data-i18n="step2Title">Choose your boost</h3>
-            <p data-i18n="step2Copy">
-              A boost starts at €5. Checkout is a secure one-time Stripe
-              payment.
-            </p>
-          </article>
-          <article>
-            <b>03</b><span class="step-icon">↗</span>
-            <h3 data-i18n="step3Title">Climb transparently</h3>
-            <p data-i18n="step3Copy">
-              Only paid boosts count. Highest verified total ranks first for the
-              selected period.
-            </p>
-          </article>
+          <article><b>01</b><span class="step-icon">＋</span><h3 data-i18n="step1Title">Add or choose</h3><p data-i18n="step1Copy">Add your gadget or choose one already in the ranking.</p></article>
+          <article><b>02</b><span class="step-icon">€</span><h3 data-i18n="step2Title">Beat the score</h3><p data-i18n="step2Copy">Paid boosts start at €10. Each verified payment adds to the gadget's ranking score.</p></article>
+          <article><b>03</b><span class="step-icon">↗</span><h3 data-i18n="step3Title">Climb instantly</h3><p data-i18n="step3Copy">The highest verified total ranks first. If someone passes you, boost again to take the position back.</p></article>
         </div>
       </section>
       <section class="final-cta">
-        <p data-i18n="ctaOverline">BUILT SOMETHING PEOPLE SHOULD SEE?</p>
-        <h2 data-i18n="ctaTitle">Put your gadget<br />on the global stage.</h2>
-        <button class="button light" type="button" data-open-submit>
-          <span data-i18n="submitNow">Submit your gadget</span><b>↗</b>
-        </button>
+        <p data-i18n="ctaOverline">DO YOU SELL OR BUILD A GADGET?</p>
+        <h2 data-i18n="ctaTitle">Put it in the ranking.<br />Fight for #1.</h2>
+        <button class="button light" type="button" data-open-submit><span data-i18n="submitNow">Add my gadget</span><b>↗</b></button>
       </section>
     </main>
     <footer>
       <div class="footer-main">
-        <a class="brand" href="/"
-          ><span class="brand-mark">G</span
-          ><span>Gadgets<span>Manía</span></span></a
-        >
-        <p data-i18n="footerCopy">
-          Independent gadget discovery, transparent paid boosts and practical
-          buying guides.
-        </p>
-        <div class="footer-links">
-          <a href="/reviews/">Reviews</a
-          ><a href="/comparativa/" data-i18n="navGuides">Guides</a
-          ><a href="/legal/ranking-terms.html" data-i18n="terms"
-            >Terms &amp; ranking rules</a
-          ><a href="/legal/ranking-privacy.html" data-i18n="privacy">Privacy</a
-          ><a href="/legal/contacto.html" data-i18n="contact">Contact</a>
-        </div>
+        <a class="brand" href="/"><span class="brand-mark">G</span><span>Gadgets<span>Manía</span></span></a>
+        <p data-i18n="footerCopy">Independent gadget discovery and a transparent ranking powered by verified paid boosts.</p>
+        <div class="footer-links"><a href="/reviews/">Reviews</a><a href="/comparativa/" data-i18n="navGuides">Guides</a><a href="/legal/ranking-terms.html" data-i18n="terms">Terms &amp; ranking rules</a><a href="/legal/ranking-privacy.html" data-i18n="privacy">Privacy</a><a href="/legal/contacto.html" data-i18n="contact">Contact</a></div>
       </div>
-      <div class="footer-bottom">
-        <span>© 2026 GadgetsManía</span
-        ><span data-i18n="affiliate"
-          >Some editorial links may be affiliate links.</span
-        >
-      </div>
+      <div class="footer-bottom"><span>© 2026 GadgetsManía</span><span data-i18n="affiliate">Some editorial links may be affiliate links.</span></div>
     </footer>
     <dialog id="submit-dialog" aria-labelledby="form-title">
       <form id="boost-form" method="dialog">
-        <button
-          class="dialog-close"
-          type="button"
-          id="dialog-close"
-          aria-label="Close"
-        >
-          ×
-        </button>
-        <p class="form-kicker" data-i18n="formKicker">JOIN THE RANKING</p>
-        <h2 id="form-title" data-i18n="formTitle">List or boost a gadget</h2>
-        <p class="form-intro" data-i18n="formIntro">
-          No subscription. Your position is based on verified paid boosts.
-        </p>
+        <button class="dialog-close" type="button" id="dialog-close" aria-label="Close">×</button>
+        <p class="form-kicker" data-i18n="formKicker">COMPETE FOR VISIBILITY</p>
+        <h2 id="form-title" data-i18n="formTitle">Add or boost a gadget</h2>
+        <p class="form-intro" data-i18n="formIntro">This is a paid ranking boost, not a subscription. Completed payments add directly to the gadget's verified score.</p>
         <input type="hidden" name="entryId" />
         <div id="new-entry-fields">
-          <label
-            ><span data-i18n="productName">Product name</span
-            ><input
-              name="name"
-              type="text"
-              minlength="2"
-              maxlength="90"
-              placeholder="e.g. Pocket AI Recorder"
-          /></label>
-          <label
-            ><span data-i18n="productUrl">Public product URL</span
-            ><input
-              name="websiteUrl"
-              type="url"
-              maxlength="500"
-              placeholder="https://…"
-          /></label>
-          <label
-            ><span data-i18n="imageUrl">Image URL (optional)</span
-            ><input
-              name="imageUrl"
-              type="url"
-              maxlength="500"
-              placeholder="https://…"
-          /></label>
-          <label
-            ><span data-i18n="categoryLabel">Category</span
-            ><select name="category">
-              <option value="ai">AI</option>
-              <option value="mobile">Mobile</option>
-              <option value="gaming">Gaming</option>
-              <option value="home">Smart home</option>
-              <option value="creator">Creator</option>
-              <option value="accessories">Accessories</option>
-            </select></label
-          >
-          <label class="wide"
-            ><span data-i18n="description">Short description</span
-            ><textarea
-              name="description"
-              minlength="10"
-              maxlength="240"
-              rows="3"
-              placeholder="What makes it useful?"
-            ></textarea>
-          </label>
+          <label><span data-i18n="productName">Product name</span><input name="name" type="text" minlength="2" maxlength="90" placeholder="e.g. Pocket AI Recorder" /></label>
+          <label><span data-i18n="productUrl">Public product URL</span><input name="websiteUrl" type="url" maxlength="500" placeholder="https://…" /></label>
+          <label><span data-i18n="imageUrl">Image URL (optional)</span><input name="imageUrl" type="url" maxlength="500" placeholder="https://…" /></label>
+          <label><span data-i18n="categoryLabel">Category</span><select name="category"><option value="ai">AI</option><option value="mobile">Mobile</option><option value="gaming">Gaming</option><option value="home">Smart home</option><option value="creator">Creator</option><option value="accessories">Accessories</option></select></label>
+          <label class="wide"><span data-i18n="description">Short description</span><textarea name="description" minlength="10" maxlength="240" rows="3" placeholder="What makes it useful?"></textarea></label>
         </div>
-        <label
-          ><span data-i18n="email">Contact email</span
-          ><input
-            name="contactEmail"
-            type="email"
-            maxlength="254"
-            required
-            autocomplete="email"
-            placeholder="you@company.com"
-        /></label>
-        <label
-          ><span data-i18n="boostAmount">Boost amount</span>
-          <span class="money">
-            <span>€</span
-            ><input
-              name="amount"
-              type="number"
-              min="10"
-              max="1000"
-              step="1"
-              value="10"
-              required /></span
-        ></label>
-        <label class="consent"
-          ><input name="accept" type="checkbox" required /><span
-            ><span data-i18n="acceptRules">I accept the</span>
-            <a
-              href="/legal/ranking-terms.html"
-              target="_blank"
-              data-i18n="rulesLink"
-              >ranking rules and terms</a
-            >.</span
-          ></label
-        >
+        <label><span data-i18n="email">Contact email</span><input name="contactEmail" type="email" maxlength="254" required autocomplete="email" placeholder="you@company.com" /></label>
+        <label><span data-i18n="boostAmount">Paid boost amount</span><span class="money"><span>€</span><input name="amount" type="number" min="10" max="1000" step="1" value="10" required /></span></label>
+        <label class="consent"><input name="accept" type="checkbox" required /><span><span data-i18n="acceptRules">I accept the</span> <a href="/legal/ranking-terms.html" target="_blank" data-i18n="rulesLink">ranking rules and terms</a>.</span></label>
         <div class="form-error" id="form-error" role="alert"></div>
-        <button class="button form-submit" type="submit">
-          <span data-i18n="continueCheckout">Continue to secure checkout</span
-          ><b>↗</b></button
-        ><small data-i18n="testNotice"
-          >Test mode: no live charges are enabled yet.</small
-        >
+        <button class="button form-submit" type="submit"><span data-i18n="continueCheckout">Pay securely with Stripe</span><b>↗</b></button><small data-i18n="testNotice">Live payment: Stripe will charge the amount shown after confirmation.</small>
       </form>
     </dialog>
     <script type="module" src="/assets/js/ranking.js"></script>
