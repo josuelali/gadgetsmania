@@ -52,68 +52,72 @@ const copy = {
     navRanking: "Ranking",
     navGuides: "Guides",
     navRules: "Rules",
-    listGadget: "List a gadget",
-    eyebrow: "THE LIVE BATTLE FOR ATTENTION",
-    heroLine1: "THE WORLD'S GADGETS.",
-    heroLine2: "RANKED BY MOMENTUM.",
+    listGadget: "Add your gadget",
+    eyebrow: "THE LIVE BATTLE FOR #1",
+    heroLine1: "YOUR BOOST.",
+    heroLine2: "YOUR POSITION.",
     heroCopy:
-      "A transparent leaderboard where useful tech earns the spotlight. Discover what's rising, submit your gadget, or boost the products you believe in.",
-    explore: "Explore the ranking",
-    joinBattle: "Join the battle",
-    verified: "Verified Stripe boosts",
-    transparent: "Transparent scores",
+      "A transparent gadget leaderboard where verified paid boosts decide the order. Add your gadget, beat the score above you and fight for #1.",
+    explore: "See who is #1",
+    joinBattle: "Compete now",
+    verified: "Verified Stripe payments",
+    transparent: "Money decides the order",
     oneTime: "One-time payments",
-    rankingLabel: "GLOBAL LEADERBOARD",
-    rankingTitle: "What's winning attention",
+    rankingLabel: "LIVE COMPETITIVE RANKING",
+    rankingTitle: "Beat the score above you",
     rankingNote:
-      "Paid totals include completed, verified Stripe payments only. Editorial picks always show €0.",
+      "Every completed Stripe payment adds to that gadget's score. Higher verified total = higher position. Editorial starters remain at €0 until boosted.",
     today: "Today",
     allTime: "All time",
     search: "Search gadgets",
     allCategories: "All categories",
     loading: "Loading live ranking…",
-    howLabel: "ZERO MYSTERY",
-    howTitle: "How the leaderboard works",
-    step1Title: "Submit or select",
+    howLabel: "NO MYSTERY",
+    howTitle: "How to take a higher position",
+    step1Title: "Add or choose",
     step1Copy:
-      "Add a public gadget page or choose an existing product from the ranking.",
-    step2Title: "Choose your boost",
+      "Add your gadget or choose one already in the ranking.",
+    step2Title: "Beat the score",
     step2Copy:
-      "A boost starts at €10. Checkout is a secure one-time Stripe payment.",
-    step3Title: "Climb transparently",
+      "Paid boosts start at €10. Each verified payment adds to the gadget's ranking score.",
+    step3Title: "Climb instantly",
     step3Copy:
-      "Only paid boosts count. Highest verified total ranks first for the selected period.",
-    ctaOverline: "BUILT SOMETHING PEOPLE SHOULD SEE?",
-    ctaTitle: "Put your gadget<br>on the global stage.",
-    submitNow: "Submit your gadget",
+      "The highest verified total ranks first. If someone passes you, boost again to take the position back.",
+    ctaOverline: "DO YOU SELL OR BUILD A GADGET?",
+    ctaTitle: "Put it in the ranking.<br>Fight for #1.",
+    submitNow: "Add my gadget",
     footerCopy:
-      "Independent gadget discovery, transparent paid boosts and practical buying guides.",
+      "Independent gadget discovery and a transparent ranking powered by verified paid boosts.",
     terms: "Terms & ranking rules",
     privacy: "Privacy",
     contact: "Contact",
     affiliate: "Some editorial links may be affiliate links.",
-    formKicker: "JOIN THE RANKING",
-    formTitle: "List or boost a gadget",
+    formKicker: "COMPETE FOR VISIBILITY",
+    formTitle: "Add or boost a gadget",
     formIntro:
-      "No subscription. Your position is based on verified paid boosts.",
+      "This is a paid ranking boost, not a subscription. Completed payments add directly to the gadget's verified score.",
     productName: "Product name",
     productUrl: "Public product URL",
     imageUrl: "Image URL (optional)",
     categoryLabel: "Category",
     description: "Short description",
     email: "Contact email",
-    boostAmount: "Boost amount",
+    boostAmount: "Paid boost amount",
     acceptRules: "I accept the",
     rulesLink: "ranking rules and terms",
-    continueCheckout: "Continue to secure checkout",
-    testNotice: "Test mode: no live charges are enabled yet.",
-    editorial: "Editorial pick · no paid boost",
-    paidBoost: "Verified paid boosts",
+    continueCheckout: "Pay securely with Stripe",
+    testNotice: "Live payment: Stripe will charge the amount shown after confirmation.",
+    editorial: "Editorial starter · €0 paid",
+    paidBoost: "Verified paid total",
     view: "Visit gadget ↗",
-    boost: "Boost position",
+    boost: "Boost this gadget",
+    defend: "Defend #1",
+    overtake: "Take #{rank}",
     empty: "No gadgets match these filters.",
     preview: "Showing editorial preview — live database unavailable.",
     results: "gadgets ranked",
+    dailyCloses: "TODAY'S RANKING CLOSES IN",
+    dailyReset: "Daily ranking resets at 00:00 UTC. All-time ranking keeps accumulating.",
     checkoutError:
       "Checkout could not be created. Please review the details and try again.",
   },
@@ -121,68 +125,72 @@ const copy = {
     navRanking: "Ranking",
     navGuides: "Guías",
     navRules: "Reglas",
-    listGadget: "Añadir gadget",
-    eyebrow: "LA BATALLA EN VIVO POR LA ATENCIÓN",
-    heroLine1: "LOS GADGETS DEL MUNDO.",
-    heroLine2: "ORDENADOS POR IMPULSO.",
+    listGadget: "Añadir mi gadget",
+    eyebrow: "LA BATALLA EN VIVO POR EL #1",
+    heroLine1: "TU IMPULSO.",
+    heroLine2: "TU POSICIÓN.",
     heroCopy:
-      "Un ranking transparente donde la tecnología útil gana visibilidad. Descubre qué está subiendo, presenta tu gadget o impulsa los productos en los que crees.",
-    explore: "Explorar el ranking",
-    joinBattle: "Entrar en la batalla",
-    verified: "Impulsos verificados por Stripe",
-    transparent: "Puntuaciones transparentes",
+      "Un ranking transparente de gadgets donde los impulsos de pago verificados deciden el orden. Añade tu gadget, supera la puntuación de arriba y compite por el #1.",
+    explore: "Ver quién es #1",
+    joinBattle: "Competir ahora",
+    verified: "Pagos verificados por Stripe",
+    transparent: "El dinero decide el orden",
     oneTime: "Pagos únicos",
-    rankingLabel: "CLASIFICACIÓN GLOBAL",
-    rankingTitle: "Lo que está ganando atención",
+    rankingLabel: "RANKING COMPETITIVO EN VIVO",
+    rankingTitle: "Supera la puntuación de arriba",
     rankingNote:
-      "Los totales de pago solo incluyen pagos completados y verificados por Stripe. La selección editorial siempre muestra 0 €.",
+      "Cada pago completado en Stripe suma a la puntuación de ese gadget. Mayor total verificado = mejor posición. Los productos editoriales empiezan en 0 € hasta recibir un impulso.",
     today: "Hoy",
     allTime: "Histórico",
     search: "Buscar gadgets",
     allCategories: "Todas las categorías",
     loading: "Cargando ranking en vivo…",
     howLabel: "SIN MISTERIOS",
-    howTitle: "Cómo funciona el ranking",
-    step1Title: "Añade o selecciona",
+    howTitle: "Cómo conquistar una posición superior",
+    step1Title: "Añade o elige",
     step1Copy:
-      "Añade una página pública de tu gadget o elige un producto que ya esté en el ranking.",
-    step2Title: "Elige tu impulso",
+      "Añade tu gadget o elige uno que ya esté dentro del ranking.",
+    step2Title: "Supera la puntuación",
     step2Copy:
-      "Los impulsos empiezan en 10 €. Checkout seguro y pago único con Stripe.",
-    step3Title: "Sube con transparencia",
+      "Los impulsos de pago empiezan en 10 €. Cada pago verificado suma a la puntuación del gadget.",
+    step3Title: "Sube al instante",
     step3Copy:
-      "Solo cuentan los pagos verificados. El mayor total ocupa la primera posición del periodo.",
-    ctaOverline: "¿HAS CREADO ALGO QUE DEBERÍA VERSE?",
-    ctaTitle: "Pon tu gadget<br>en el escenario global.",
-    submitNow: "Presentar mi gadget",
+      "El mayor total verificado ocupa el primer puesto. Si alguien te supera, puedes volver a impulsar para recuperar la posición.",
+    ctaOverline: "¿VENDES O HAS CREADO UN GADGET?",
+    ctaTitle: "Mételo en el ranking.<br>Compite por el #1.",
+    submitNow: "Añadir mi gadget",
     footerCopy:
-      "Descubrimiento independiente, impulsos de pago transparentes y guías prácticas de compra.",
+      "Descubrimiento independiente y un ranking transparente impulsado por pagos verificados.",
     terms: "Términos y reglas",
     privacy: "Privacidad",
     contact: "Contacto",
     affiliate: "Algunos enlaces editoriales pueden ser de afiliado.",
-    formKicker: "ENTRA EN EL RANKING",
+    formKicker: "COMPITE POR VISIBILIDAD",
     formTitle: "Añade o impulsa un gadget",
     formIntro:
-      "Sin suscripción. La posición depende de impulsos de pago verificados.",
+      "Es un impulso de ranking de pago, no una suscripción. Cada pago completado suma directamente a la puntuación verificada del gadget.",
     productName: "Nombre del producto",
     productUrl: "URL pública del producto",
     imageUrl: "URL de imagen (opcional)",
     categoryLabel: "Categoría",
     description: "Descripción breve",
     email: "Email de contacto",
-    boostAmount: "Importe del impulso",
+    boostAmount: "Importe del impulso de pago",
     acceptRules: "Acepto las",
     rulesLink: "reglas del ranking y condiciones",
-    continueCheckout: "Continuar al pago seguro",
-    testNotice: "Modo de prueba: todavía no hay cobros reales activados.",
-    editorial: "Selección editorial · sin pago",
-    paidBoost: "Impulsos de pago verificados",
+    continueCheckout: "Pagar de forma segura con Stripe",
+    testNotice: "Pago Live: Stripe cobrará el importe mostrado después de confirmarlo.",
+    editorial: "Selección editorial · 0 € pagados",
+    paidBoost: "Total pagado verificado",
     view: "Visitar gadget ↗",
-    boost: "Impulsar posición",
+    boost: "Impulsar este gadget",
+    defend: "Defender #1",
+    overtake: "Conquistar #{rank}",
     empty: "No hay gadgets para estos filtros.",
     preview: "Vista editorial — base de datos en vivo no disponible.",
     results: "gadgets clasificados",
+    dailyCloses: "EL RANKING DE HOY CIERRA EN",
+    dailyReset: "El ranking diario se reinicia a las 00:00 UTC. El histórico sigue acumulando.",
     checkoutError:
       "No se pudo crear el pago. Revisa los datos e inténtalo de nuevo.",
   },
@@ -190,9 +198,18 @@ const copy = {
 
 let language = localStorage.getItem("gm_language") || "en",
   period = "daily",
-  requestController;
+  requestController,
+  lastEntries = [];
 const $ = (selector) => document.querySelector(selector);
 const t = (key) => copy[language][key] || key;
+
+function formatEuros(cents) {
+  return new Intl.NumberFormat(language, {
+    style: "currency",
+    currency: "EUR",
+    maximumFractionDigits: 0,
+  }).format(cents / 100);
+}
 
 function translate() {
   document.documentElement.lang = language;
@@ -205,9 +222,18 @@ function translate() {
   document
     .querySelectorAll("[data-i18n-placeholder]")
     .forEach((el) => (el.placeholder = t(el.dataset.i18nPlaceholder)));
+  updateCountdown();
+}
+
+function requiredBoost(entries, index) {
+  if (index === 0) return 1000;
+  const current = Number(entries[index]?.paidCents || 0);
+  const target = Number(entries[index - 1]?.paidCents || 0);
+  return Math.max(1000, target - current + 100);
 }
 
 function render(entries) {
+  lastEntries = entries;
   const list = $("#ranking-list");
   list.replaceChildren();
   if (!entries.length) {
@@ -263,11 +289,7 @@ function render(entries) {
         ? t("editorial")
         : t("paidBoost");
     const amount = document.createElement("strong");
-    amount.textContent = new Intl.NumberFormat(language, {
-      style: "currency",
-      currency: "EUR",
-      maximumFractionDigits: 0,
-    }).format(entry.paidCents / 100);
+    amount.textContent = formatEuros(entry.paidCents);
     if (!entry.paidCents) amount.className = "zero";
     score.append(label, amount);
     const view = document.createElement("a");
@@ -282,8 +304,17 @@ function render(entries) {
     const boost = document.createElement("button");
     boost.className = "boost";
     boost.type = "button";
-    boost.textContent = t("boost");
-    boost.addEventListener("click", () => openDialog(entry));
+    const needed = requiredBoost(entries, index);
+    const action =
+      index === 0
+        ? t("defend")
+        : t("overtake").replace("{rank}", String(index));
+    boost.textContent = `${action} · ${formatEuros(needed)}`;
+    boost.setAttribute(
+      "aria-label",
+      `${action}. ${t("boostAmount")}: ${formatEuros(needed)}`,
+    );
+    boost.addEventListener("click", () => openDialog(entry, needed));
     card.append(number, image, info, score, view, boost);
     list.append(card);
   });
@@ -321,10 +352,15 @@ async function loadRanking() {
   }
 }
 
-function openDialog(entry) {
+function openDialog(entry, suggestedCents) {
   const form = $("#boost-form");
   form.reset();
-  form.elements.amount.value = "10";
+  let suggested = suggestedCents;
+  if (!entry && !suggested) {
+    const topScore = Number(lastEntries[0]?.paidCents || 0);
+    suggested = Math.max(1000, topScore + 100);
+  }
+  form.elements.amount.value = String(Math.max(10, Math.ceil((suggested || 1000) / 100)));
   form.elements.entryId.value = entry?.id || "";
   $("#new-entry-fields").classList.toggle("hidden", Boolean(entry));
   $("#new-entry-fields")
@@ -332,6 +368,30 @@ function openDialog(entry) {
     .forEach((field) => (field.required = !entry && field.name !== "imageUrl"));
   $("#form-error").textContent = "";
   $("#submit-dialog").showModal();
+}
+
+function updateCountdown() {
+  const timer = $("#daily-countdown");
+  const label = $("#daily-countdown-label");
+  const note = $("#daily-countdown-note");
+  if (!timer || !label || !note) return;
+  const now = new Date();
+  const nextUtcMidnight = Date.UTC(
+    now.getUTCFullYear(),
+    now.getUTCMonth(),
+    now.getUTCDate() + 1,
+    0,
+    0,
+    0,
+  );
+  const remaining = Math.max(0, nextUtcMidnight - now.getTime());
+  const totalSeconds = Math.floor(remaining / 1000);
+  const hours = String(Math.floor(totalSeconds / 3600)).padStart(2, "0");
+  const minutes = String(Math.floor((totalSeconds % 3600) / 60)).padStart(2, "0");
+  const seconds = String(totalSeconds % 60).padStart(2, "0");
+  label.textContent = t("dailyCloses");
+  timer.textContent = `${hours}:${minutes}:${seconds}`;
+  note.textContent = t("dailyReset");
 }
 
 document
@@ -411,4 +471,6 @@ $("#boost-form").addEventListener("submit", async (event) => {
 });
 
 translate();
+updateCountdown();
+setInterval(updateCountdown, 1000);
 loadRanking();
