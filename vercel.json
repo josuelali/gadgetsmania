@@ -144,6 +144,151 @@
       "source": "/reviews/webcam-calidad-precio-amazon",
       "destination": "/reviews/",
       "permanent": true
+    },
+    {
+      "source": "/reviews/auriculares-bluetooth-baratos-buenos/",
+      "destination": "/reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/reviews/auriculares-bluetooth-para-streaming/",
+      "destination": "/reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/reviews/auriculares-bluetooth-para-trabajar/",
+      "destination": "/reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/reviews/mejor-raton-gaming-calidad-precio/",
+      "destination": "/reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/reviews/mejores-auriculares-bluetooth/",
+      "destination": "/reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/reviews/mejores-auriculares-cancelacion-de-ruido/",
+      "destination": "/reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/reviews/mejores-gadgets-para-trabajar-desde-casa/",
+      "destination": "/reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/reviews/mejores-hubs-usb/",
+      "destination": "/reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/reviews/mejores-ratones-gaming/",
+      "destination": "/reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/reviews/mejores-monitores-para-trabajar/",
+      "destination": "/reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/reviews/microfonos-usb-baratos/",
+      "destination": "/reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/reviews/monitor-para-oficina-recomendado/",
+      "destination": "/reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/reviews/monitor-para-programadores/",
+      "destination": "/reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/reviews/monitores-baratos-buenos/",
+      "destination": "/reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/reviews/ratones-inalambricos-baratos/",
+      "destination": "/reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/reviews/ratones-para-oficina-recomendados/",
+      "destination": "/reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/reviews/ssd-externo-portatil/",
+      "destination": "/reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/reviews/ssd-externo-rapido/",
+      "destination": "/reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/reviews/teclados-mecanicos-baratos/",
+      "destination": "/reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/reviews/teclados-mecanicos-para-programar/",
+      "destination": "/reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/reviews/teclados-mecanicos-silenciosos/",
+      "destination": "/reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/reviews/webcam-full-hd-barata/",
+      "destination": "/reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/reviews/webcam-para-youtube/",
+      "destination": "/reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/mejores/gadgets-baratos/",
+      "destination": "/mejores-gadgets-baratos/",
+      "permanent": true
+    },
+    {
+      "source": "/mejores-auriculares-inalambricos-anc/",
+      "destination": "/reviews/mejores-auriculares-inalambricos/",
+      "permanent": true
+    },
+    {
+      "source": "/mini-proyector-portatil-calidad-precio/",
+      "destination": "/mejores-gadgets-baratos/",
+      "permanent": true
+    },
+    {
+      "source": "/mejor-cargador-gan-usb-c/",
+      "destination": "/mejores-gadgets-baratos/",
+      "permanent": true
+    },
+    {
+      "source": "/guias/mejores-teclados-mecanicos",
+      "destination": "/mejores-teclados-mecanicos/",
+      "permanent": true
+    },
+    {
+      "source": "/reviews/mejor-raton-vertical-ergonomico/",
+      "destination": "/mejor-raton-vertical-ergonomico/",
+      "permanent": true
     }
   ]
 }
