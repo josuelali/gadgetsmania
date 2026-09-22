@@ -899,3 +899,30 @@ body {
 .nav a:hover {
   color: #22d3ee;
 }
+
+/* Post-QA responsive hardening */
+html, body { max-width: 100%; overflow-x: hidden; }
+.review-table-wrap, .review-article table, table { max-width: 100%; overflow-x: auto; }
+.review-article table { display: block; width: 100%; }
+@media (max-width: 720px) {
+  .header-container { min-width: 0; }
+  .nav { display: flex !important; flex-wrap: wrap; gap: 6px; overflow-x: auto; }
+  .nav a { margin-left: 0; padding: 8px 10px; white-space: nowrap; }
+  .hero h1, .hero-small h1 { overflow-wrap: anywhere; }
+  .review-article, .review-intro-box, .review-cta-final { padding: 16px; }
+  .review-table { min-width: 560px; }
+}
+
+
+/* Post-QA responsive hardening */
+html, body { max-width: 100%; overflow-x: hidden; }
+.review-table-wrap, .review-article table, table { max-width: 100%; overflow-x: auto; }
+.review-article table { display: block; width: 100%; }
+@media (max-width: 720px) {
+  .header-container { min-width: 0; }
+  .nav { display: flex !important; flex-wrap: wrap; gap: 6px; overflow-x: auto; }
+  .nav a { margin-left: 0; padding: 8px 10px; white-space: nowrap; }
+  .hero h1, .hero-small h1 { overflow-wrap: anywhere; }
+  .review-article, .review-intro-box, .review-cta-final { padding: 16px; }
+  .review-table { min-width: 560px; }
+}
