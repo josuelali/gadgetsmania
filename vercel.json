@@ -31,6 +31,21 @@
   ],
   "redirects": [
     {
+      "source": "/legal/ranking-terms/",
+      "destination": "/legal/aviso-legal.html",
+      "permanent": true
+    },
+    {
+      "source": "/legal/ranking-privacy/",
+      "destination": "/legal/privacidad.html",
+      "permanent": true
+    },
+    {
+      "source": "/reviews/(cascos-gaming-amazon-recomendados|gadgets-curiosos-amazon|luces-led-amazon-recomendadas|altavoz-bluetooth-amazon|camara-ip-amazon|cargador-portatil-amazon|dock-usb-c-barato-amazon|mejor-teclado-mecanico-barato|microfono-usb-amazon-recomendado|monitor-144hz-barato-amazon|raton-gaming-amazon-recomendados|raton-gaming-para-fps-barato|silla-oficina-barata-amazon|smartwatch-amazon-recomendado|tablet-amazon-recomendada|teclado-gaming-silencioso-barato|teclado-mecanico-amazon-recomendados|webcam-calidad-precio-amazon)/",
+      "destination": "/reviews/",
+      "permanent": true
+    },
+    {
       "source": "/legal/ranking-terms",
       "destination": "/legal/aviso-legal.html",
       "permanent": true
