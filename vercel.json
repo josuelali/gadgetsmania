@@ -289,6 +289,26 @@
       "source": "/reviews/mejor-raton-vertical-ergonomico/",
       "destination": "/mejor-raton-vertical-ergonomico/",
       "permanent": true
+    },
+    {
+      "source": "/legal/aviso-legal.html",
+      "destination": "/legal/aviso-legal/",
+      "permanent": true
+    },
+    {
+      "source": "/legal/contacto.html",
+      "destination": "/legal/contacto/",
+      "permanent": true
+    },
+    {
+      "source": "/legal/cookies.html",
+      "destination": "/legal/cookies/",
+      "permanent": true
+    },
+    {
+      "source": "/legal/privacidad.html",
+      "destination": "/legal/privacidad/",
+      "permanent": true
     }
   ]
 }
