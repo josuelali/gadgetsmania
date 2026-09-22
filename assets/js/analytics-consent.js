@@ -35,6 +35,29 @@
   window.gtag('js', new Date());
   window.gtag('config', MEASUREMENT_ID, { send_page_view: savedChoice === 'all' });
 
+  document.addEventListener('click', function (event) {
+    if (savedChoice !== 'all') return;
+    var link = event.target && event.target.closest ? event.target.closest('a[href]') : null;
+    if (!link) return;
+    var href = link.href || '';
+    if (!/(?:amazon\.|amzn\.to)/i.test(href)) return;
+    var destination;
+    try {
+      var parsed = new URL(href, window.location.href);
+      destination = parsed.hostname + parsed.pathname;
+    } catch (_) { return; }
+    var placementNode = link.closest('[data-placement]');
+    var placement = placementNode ? placementNode.getAttribute('data-placement') : '';
+    if (!placement) placement = link.className || 'affiliate_link';
+    var product = link.getAttribute('data-product') || (link.textContent || '').trim().replace(/\s+/g, ' ').slice(0, 120) || 'amazon_product';
+    window.gtag('event', 'affiliate_click', {
+      product: product,
+      destination: destination,
+      page_path: window.location.pathname,
+      placement: String(placement).slice(0, 80)
+    });
+  }, true);
+
   function saveChoice(choice) {
     try { window.localStorage.setItem(STORAGE_KEY, choice); } catch (_) {}
   }
