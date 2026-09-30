@@ -314,6 +314,11 @@
       "source": "/review/mini-compresor-aire-portatil-xiaomi/",
       "destination": "/mini-compresor-aire-portatil-xiaomi/",
       "permanent": true
+    },
+    {
+      "source": "/review/plaud-note-pro/",
+      "destination": "/reviews/plaud-note-pro/",
+      "permanent": true
     }
   ]
 }
