@@ -309,6 +309,11 @@
       "source": "/legal/privacidad.html",
       "destination": "/legal/privacidad/",
       "permanent": true
+    },
+    {
+      "source": "/review/mini-compresor-aire-portatil-xiaomi/",
+      "destination": "/mini-compresor-aire-portatil-xiaomi/",
+      "permanent": true
     }
   ]
 }
